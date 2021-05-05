@@ -1,0 +1,16 @@
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project{
+    border: 2px solid black;
+    margin: 80px;
+    z-index: 1;
+    background-color: white;
+}
+
+.project-logo{
+        width: 200px;
+        height: 100px;
+}

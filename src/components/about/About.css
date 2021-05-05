@@ -1,0 +1,26 @@
+.about-page{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-card{
+    width: 60%;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: white;
+    margin-top: 150px;
+    margin-right: 80px;
+
+}
+
+
+.me{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 60% ;
+    z-index: 1;
+}
+.my-photo{
+    margin-top: 60px;
+}
