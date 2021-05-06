@@ -117,6 +117,7 @@ class App extends React.Component{
                         <Route path="/about" component={About} />
                         <Route path="/projects" component={Projects} />
                     </Switch>
+
                 </div>
             </Router>
 
