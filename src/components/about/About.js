@@ -25,7 +25,7 @@ function About(){
                     Currently I am Software engineering student at Mohammadia school of engineering
                     where I pursue a solid formation in order to lead innovative projects in the future.
                 </p>
-                <SocialIcon url="https://www.linkedin.com/in/houssam-ezzin-b16757155/" target="_blank" />
+                <SocialIcon url="https://www.linkedin.com/in/houssam-ezzin-b16757155/" target="_blank"  />
                 <SocialIcon url="https://github.com/HoussamEzzin" target="_blank" />
                 <SocialIcon url="https://twitter.com/EzzinH"  target="_blank"/>
                 <SocialIcon url="https://codepen.io/houssamezzin" bgColor="#000000" target="_blank"/>

@@ -11,7 +11,7 @@ function Projects(){
               <p>It's a web application for managing doctoral students and their supervisors
               at Mohammadia School of engineering.</p>
               <p>Used technologies : React.js, Express.js, MySql, Axios</p>
-                <a href="https://cedoc.vercel.app/" target="_blank">
+                <a rel="noreferrer" href="https://cedoc.vercel.app/" target="_blank">
                     <button  className="project-button">Visit</button>
                 </a>
           </div>
@@ -22,7 +22,7 @@ function Projects(){
                   and display a smooth transition between them.
                   There is also a button to generate random colors. </p>
               <p>Used technologies : HTML, CSS, JavaScript</p>
-              <a href="https://houssamezzin.github.io/Background-Generator/" target="_blank">
+              <a rel="noreferrer" href="https://houssamezzin.github.io/Background-Generator/" target="_blank">
                   <button  className="project-button">Visit</button>
               </a>
           </div>
@@ -32,7 +32,7 @@ function Projects(){
               <p>It's a web application for managing doctoral students and their supervisors
                   at Mohammadia School of engineering.</p>
               <p>Used technologies : React.js, Express.js, MySql, Axios</p>
-              <a href="https://cedoc-hichamoujari.vercel.app/" target="_blank">
+              <a rel="noreferrer" href="https://cedoc-hichamoujari.vercel.app/" target="_blank">
                   <button  className="project-button">Visit</button>
               </a>
           </div>
@@ -42,7 +42,7 @@ function Projects(){
               <p>It's a web application for managing doctoral students and their supervisors
                   at Mohammadia School of engineering.</p>
               <p>Used technologies : React.js, Express.js, MySql, Axios</p>
-              <a href="https://cedoc-hichamoujari.vercel.app/" target="_blank">
+              <a rel="noreferrer" href="https://cedoc-hichamoujari.vercel.app/" target="_blank">
                   <button  className="project-button">Visit</button>
               </a>
           </div>
