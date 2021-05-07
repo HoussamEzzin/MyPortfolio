@@ -34,21 +34,10 @@ function Projects(){
                   As it moves forward, it leaves a trail behind, resembling a moving snake.
                   The player loses when the snake runs into itself. </p>
               <p>Used technologies : HTML, CSS, JavaScript</p>
-              <a rel="noreferrer" href="https://cedoc-hichamoujari.vercel.app/" target="_blank">
+              <a rel="noreferrer" href="https://houssamezzin.github.io/Snake-Game/" target="_blank">
                   <button  className="project-button">Visit</button>
               </a>
           </div>
-          <div className="project">
-              <h3 className="project-title">Cedoc</h3>
-              <img alt="project" src={cedocLogo} className="project-logo"/>
-              <p>It's a web application for managing doctoral students and their supervisors
-                  at Mohammadia School of engineering.</p>
-              <p>Used technologies : React.js, Express.js, MySql, Axios</p>
-              <a rel="noreferrer" href="https://cedoc-hichamoujari.vercel.app/" target="_blank">
-                  <button  className="project-button">Visit</button>
-              </a>
-          </div>
-
       </div>
     );
 }
