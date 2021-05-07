@@ -22,13 +22,13 @@ nav{
     display: flex;
     align-items: center;
     color: white;
-    font-size: large;
+    font-size: 32px;
     text-decoration: none;
     height: 100px;
     text-align: center;
     justify-content: center;
     width: 200px;
-
+    font-family: "Gill Sans Ultra Bold",Serif, serif;
 }
 
 .nav-elem:hover{
