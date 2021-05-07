@@ -25,6 +25,7 @@ function About(){
                     Currently I am Software engineering student at Mohammadia school of engineering
                     where I pursue a solid formation in order to lead innovative projects in the future.
                 </p>
+                <p className="quote">"A true master is an eternal student".</p>
                 <SocialIcon url="https://www.linkedin.com/in/houssam-ezzin-b16757155/" target="_blank"  />
                 <SocialIcon url="https://github.com/HoussamEzzin" target="_blank" />
                 <SocialIcon url="https://twitter.com/EzzinH"  target="_blank"/>
