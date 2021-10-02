@@ -22,7 +22,7 @@ function About(){
                     I am motivated for new challenges.
                 </p>
                 <p>
-                    Currently I am Software engineering student at Mohammadia school of engineering
+                    Currently I am IT engineering student at Mohammadia school of engineering
                     where I pursue a solid formation in order to lead innovative projects in the future.
                 </p>
                 <p className="quote">"A true master is an eternal student".</p>

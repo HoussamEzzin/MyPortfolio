@@ -1,9 +1,9 @@
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 100px;
-    background: black;
+    background: rgb(30, 30, 30);
     color: white;
     width: 100%;
 }
@@ -16,6 +16,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    /**/
 }
 
 .nav-elem{
@@ -28,7 +29,8 @@ nav{
     text-align: center;
     justify-content: center;
     width: 200px;
-    font-family: "Gill Sans Ultra Bold",Serif, serif;
+    font-family: 'Abel';
+
 }
 
 .nav-elem:hover{
@@ -36,3 +38,8 @@ nav{
     color: black;
 }
 
+@media(max-width: 600px){
+    .nav-elem > li{
+        font-size: 18px;
+    }
+}

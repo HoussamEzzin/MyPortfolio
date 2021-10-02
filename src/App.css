@@ -1,14 +1,7 @@
 .App {
   text-align: center;
-  background-color: deepskyblue;
+  background-image: url('images/background.jpg');
   height: 1700px;
 }
 
 
-.particles {
-  position: absolute;
-  opacity: 0.5;
-  width: 1600px;
-  height: 1500px;
-
-}

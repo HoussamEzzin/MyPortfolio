@@ -4,7 +4,7 @@ import TextAnimation from "react-animate-text";
 function Home(){
     return(
       <div className="home">
-          <TextAnimation>
+          <TextAnimation charInterval={50}>
               <h1 className="name">I am Ezzin Houssam</h1>
               <h2 className="job">Full Stack Developer</h2>
           </TextAnimation>

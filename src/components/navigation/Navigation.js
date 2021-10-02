@@ -1,5 +1,7 @@
+
 import './Navigation.css'
 import {Link} from 'react-router-dom';
+
 
 function Navigation() {
     return (
@@ -8,7 +10,6 @@ function Navigation() {
                 <Link className="nav-elem" to="/">
                     <li>Home</li>
                 </Link>
-
                 <Link className="nav-elem" to="/about">
                     <li>About Me</li>
                 </Link>
