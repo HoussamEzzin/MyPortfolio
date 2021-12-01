@@ -1,0 +1,14 @@
+.download-button{
+    margin-top: 200px;
+    background-color: bisque;
+    color: black;
+    font-size: 45px;
+    border-radius: 20%;
+}
+
+.download-button:hover{
+    opacity: 70%;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}

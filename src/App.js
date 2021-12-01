@@ -5,6 +5,8 @@ import Navigation from "./components/navigation/Navigation";
 import About from "./components/about/About";
 import Home from "./components/home/Home";
 import Projects from "./components/projects/Projects";
+import Resume  from './components/resume/Resume';
+import Skills from './components/skills/Skills';
 
 
 class App extends React.Component{
@@ -21,6 +23,8 @@ class App extends React.Component{
                         <Route path="/" exact component={Home} />
                         <Route path="/about" component={About} />
                         <Route path="/projects" component={Projects} />
+                        <Route path="/resume" component={Resume} />
+                        <Route path="/skills" component={Skills} />
                     </Switch>
 
                 </div>

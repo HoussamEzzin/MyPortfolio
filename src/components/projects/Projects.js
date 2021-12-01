@@ -3,10 +3,32 @@ import shopo from './shopo.png';
 import bexfor from './bexfor.png';
 import backgroundGeneratorLogo from './logo.png';
 import snakeLogo from './header.jpg';
+import chatbotlogo from './chatbot.png';
 
 function Projects() {
     return (
         <div className="projects">
+            <div className="project">
+                <h3 className="project-title">Sentiment Analysis</h3>
+                
+                <p>Analyzing text, bascially a comment, and decide if it's positive, negative or neutral.
+                    Implemented using two different approachs : Rule-Based and machine learning.
+                    It supports English And Arabic </p>
+                <p className="used-tech">Used technologies : Python, Natural Language Processing</p>
+                <a rel="noreferrer" href="https://github.com/HoussamEzzin/Sentiment-Analysis" target="_blank">
+                    <button className="project-button">Visit</button>
+                </a>
+            </div>
+            <div className="project">
+                <h3 className="project-title">Sakuuragi - ChatBot</h3>
+                <img alt="project" src={chatbotlogo} className="project-logo"/>
+                <p> Web application which provie a Chatbot trained with a lot of data in order to interact with your input.
+                    It's still under developpement and Sakuuragi is getting clever ! </p>
+                <p className="used-tech">Used technologies : Django, HTML, CSS, JQuery</p>
+                <a rel="noreferrer" href="https://github.com/HoussamEzzin/Sentiment-Analysis" target="_blank">
+                    <button className="project-button">Visit</button>
+                </a>
+            </div>
             <div className="project">
                 <h3 className="project-title">Shopo</h3>
                 <img alt="project" src={shopo} className="project-logo"/>
