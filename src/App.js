@@ -7,6 +7,7 @@ import Home from "./components/home/Home";
 import Projects from "./components/projects/Projects";
 import Resume  from './components/resume/Resume';
 import Skills from './components/skills/Skills';
+import Footer from "./components/footer/Footer";
 
 
 class App extends React.Component{
@@ -17,7 +18,7 @@ class App extends React.Component{
     render(){
         return (
             <Router>
-                <div className="App">
+                <div className="app" >
                     <Navigation />
                     <Switch>
                         <Route path="/" exact component={Home} />
@@ -26,7 +27,7 @@ class App extends React.Component{
                         <Route path="/resume" component={Resume} />
                         <Route path="/skills" component={Skills} />
                     </Switch>
-
+                    <Footer/>
                 </div>
             </Router>
 

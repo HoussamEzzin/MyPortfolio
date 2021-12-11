@@ -43,3 +43,23 @@ nav{
         font-size: 18px;
     }
 }
+
+@media(max-width: 500px)  {
+    .nav-elem {
+        width: 50px;
+        height: 50px;
+    }
+    .nav-elem > li{
+        font-size: 14px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        justify-content:space-around ;
+    }
+    nav{
+        height: 250px;
+
+    }
+
+}

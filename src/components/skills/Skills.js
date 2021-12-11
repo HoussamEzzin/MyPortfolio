@@ -1,8 +1,12 @@
+import './Skills.css';
+
 
 function Skills(){
     return(
         <div>
-            <h2>Test</h2>
+            <div className="skills-circle">
+
+            </div>
         </div>
     )
 }

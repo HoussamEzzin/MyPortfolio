@@ -1,0 +1,8 @@
+.skills-circle{
+    height: 500px;
+    width: 500px;
+    background-color: floralwhite;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 150px;
+}

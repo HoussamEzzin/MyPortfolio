@@ -1,26 +1,37 @@
 .about-page{
     display: flex;
+    /*flex-direction: column;*/
     justify-content: space-between;
-
+    background-image: url('/src/backgrounds/about.jpg');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    /*background-position: left top;*/
+    background-position: top ;
+    height: 900px;
 }
 
 .about-card{
     width: 60%;
     border: 1px solid black;
-    font-size: 28px;
-    background:rgba(0, 0, 0, 0) linear-gradient(to right, rgb(255, 255, 255), rgb(0, 191, 255)) repeat scroll 0% 0%;
-
+    font-size: 22px;
+    /* background:rgba(0, 0, 0, 0) linear-gradient(to right, rgb(255, 255, 255), rgb(0, 191, 255)) repeat scroll 0% 0%; */
     margin-top: 120px;
     right: 0;
     margin-right: 80px;
-    position: absolute;
+    /*position: absolute;*/
     z-index: 1;
+    border-radius: 10%;
+    background: gold;
+    height: 40%;
+}
 
+.about-card-text{
+    margin: 20px;
 }
 
 
 .me{
-    position: absolute;
+    /*position: absolute;*/
     border: 1px solid black;
     border-radius: 60% ;
     z-index: 1;
@@ -31,5 +42,27 @@
 }
 
 .quote{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+
+@media(max-width: 1450px) {
+    .about-page{
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .me{
+        width: 200px;
+        height: 200px;
+    }
+    .my-photo{
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    .about-card{
+        margin-left: 50px;
+    }
+}
+
