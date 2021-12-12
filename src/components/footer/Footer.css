@@ -4,5 +4,10 @@
     bottom: 0;
     width: 100%;
 
-
 }
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+

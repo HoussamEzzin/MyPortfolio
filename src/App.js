@@ -12,9 +12,6 @@ import Footer from "./components/footer/Footer";
 
 class App extends React.Component{
 
-
-
-
     render(){
         return (
             <Router>

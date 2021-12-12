@@ -8,7 +8,7 @@
 
 .download-button:hover{
     opacity: 70%;
-    background-color: black;
-    color: whitesmoke;
+    background-color: darkslategray;
+    color: white;
     cursor: pointer;
 }

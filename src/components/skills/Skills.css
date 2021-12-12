@@ -1,8 +1,23 @@
 .skills-circle{
     height: 500px;
     width: 500px;
-    background-color: floralwhite;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 150px;
+
+    display: grid;
+    margin: 150px auto;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.skill{
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+.skill:hover{
+    cursor: pointer;
+    transform: scale(1.5);
 }
