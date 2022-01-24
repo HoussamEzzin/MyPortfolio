@@ -10,7 +10,6 @@ function Projects() {
         <div className="projects">
             <div className="project">
                 <h3 className="project-title">Sentiment Analysis</h3>
-                
                 <p>
                     Web application that takes a youtube video URL and analyze its comments,
                     and decide if it's positive, negative or neutral.
@@ -18,6 +17,17 @@ function Projects() {
                     It supports English And Arabic </p>
                 <p className="used-tech">Used technologies : Spring boot , Natural Language Processing, React, Youtube API</p>
                 <a rel="noreferrer" href="https://github.com/HoussamEzzin/Sentiment_Analysis_webapp" target="_blank">
+                    <button className="project-button">Visit</button>
+                </a>
+            </div>
+            <div className="project">
+                <h3 className="project-title">Alexa</h3>
+                <p>
+                    Alexa is a smart personal assistant.
+
+                </p>
+                <p className="used-tech">Used technologies : Python, Speech Recognition </p>
+                <a rel="noreferrer" href="https://github.com/HoussamEzzin/alexa" target="_blank">
                     <button className="project-button">Visit</button>
                 </a>
             </div>

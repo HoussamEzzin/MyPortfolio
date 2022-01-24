@@ -22,3 +22,26 @@
     transform: scale(1.5);
     font-size: 20px;
 }
+
+.dev-pop-up{
+    background-color: whitesmoke;
+    padding: 15px;
+    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Amatic SC', cursive;
+
+    font-family: 'Changa', sans-serif;
+
+    font-family: 'Luxurious Roman', cursive;
+
+    font-family: 'Sedgwick Ave', cursive;
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    color: darkred;
+    border-radius: 20%;
+}
+
+.skills-list-pop{
+    list-style-type: none;
+}
