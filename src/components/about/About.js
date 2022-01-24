@@ -28,7 +28,7 @@ function About(){
                     </p>
                 </div>
                 
-                <p className="quote">"A true master is an eternal student".</p>
+                <p className="quote">"I use my keyboard to solve problems and transform needs into functionalities ".</p>
 
 
                 
