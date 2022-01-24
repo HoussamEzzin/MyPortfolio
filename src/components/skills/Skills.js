@@ -1,6 +1,6 @@
 import './Skills.css';
 import React from 'react';
-import { Button, Popup } from 'semantic-ui-react'
+import {  Popup } from 'semantic-ui-react'
 
 class  Skills extends  React.Component{
     render(){
