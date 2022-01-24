@@ -11,11 +11,13 @@ function Projects() {
             <div className="project">
                 <h3 className="project-title">Sentiment Analysis</h3>
                 
-                <p>Analyzing text, bascially a comment, and decide if it's positive, negative or neutral.
-                    Implemented using two different approachs : Rule-Based and machine learning.
+                <p>
+                    Web application that takes a youtube video URL and analyze its comments,
+                    and decide if it's positive, negative or neutral.
+                    Implemented using two different approaches : Rule-Based and machine learning.
                     It supports English And Arabic </p>
-                <p className="used-tech">Used technologies : Python, Natural Language Processing</p>
-                <a rel="noreferrer" href="https://github.com/HoussamEzzin/Sentiment-Analysis" target="_blank">
+                <p className="used-tech">Used technologies : Spring boot , Natural Language Processing, React, Youtube API</p>
+                <a rel="noreferrer" href="https://github.com/HoussamEzzin/Sentiment_Analysis_webapp" target="_blank">
                     <button className="project-button">Visit</button>
                 </a>
             </div>
@@ -69,6 +71,15 @@ function Projects() {
                     The player loses when the snake runs into itself. </p>
                 <p className="used-tech">Used technologies : HTML, CSS, JavaScript</p>
                 <a rel="noreferrer" href="https://houssamezzin.github.io/Snake-Game/" target="_blank">
+                    <button className="project-button">Visit</button>
+                </a>
+            </div>
+            <div className="project">
+                <h3 className="project-title">News App</h3>
+                {/*<img alt="project" src={snakeLogo} className="project-logo"/>*/}
+                <p>Mobile application </p>
+                <p className="used-tech">Used technologies : Java, Android, News API</p>
+                <a rel="noreferrer" href="https://github.com/HoussamEzzin/NewsApp" target="_blank">
                     <button className="project-button">Visit</button>
                 </a>
             </div>

@@ -9,7 +9,7 @@
 }
 
 .skill{
-    background-color: red;
+    background-color: lightskyblue;
 
     display: flex;
     justify-content: center;
@@ -20,4 +20,5 @@
 .skill:hover{
     cursor: pointer;
     transform: scale(1.5);
+    font-size: 20px;
 }
