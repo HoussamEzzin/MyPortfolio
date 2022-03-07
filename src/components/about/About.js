@@ -8,7 +8,7 @@ function About(){
         <div className="about-page d-flex flex-column align-items-center">
             <div className="d-flex flex-row justify-content-between align-items-center">
                 <div className="my-photo">
-                    <img className="me" src={myPhoto} alt="me"/>
+                    <img className="me" src={myPhoto} alt="Houssam Ezzin"/>
                 </div>
                 <div>
                     <p className="simple-desc">
