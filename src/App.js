@@ -9,6 +9,8 @@ import Resume  from './components/resume/Resume';
 import Skills from './components/skills/Skills';
 import Footer from "./components/footer/Footer";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 class App extends React.Component{
 

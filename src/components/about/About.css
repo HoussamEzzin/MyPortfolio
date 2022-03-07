@@ -1,13 +1,15 @@
 .about-page{
-    display: flex;
+
     /*flex-direction: column;*/
-    justify-content: space-between;
-    background-image: url('/src/backgrounds/about.jpg');
-    background-size: 100% 100%;
-    background-repeat: repeat;
-    /*background-position: left top;*/
-    background-position: top ;
+    /*justify-content: space-between;*/
+    /*background-image: url('/src/backgrounds/about.jpg');*/
+    /*background-size: 100% 100%;*/
+    /*background-repeat: repeat;*/
+    /*!*background-position: left top;*!*/
+    /*background-position: top ;*/
+    background: white;
     height: 900px;
+    margin-bottom: 400px;
 }
 
 .about-card{
@@ -21,8 +23,14 @@
     /*position: absolute;*/
     z-index: 1;
     border-radius: 10%;
-    background: gold;
+    /*background: gold;*/
     height: 40%;
+}
+
+.simple-desc{
+    font-family: 'Yellowtail', cursive;
+    font-size: 32px;
+    margin: 100px;
 }
 
 .about-card-text{
@@ -35,6 +43,8 @@
     border: 1px solid black;
     border-radius: 60% ;
     z-index: 1;
+    height: 300px;
+    width: 300px;
 }
 .my-photo{
     margin-top: 60px;
