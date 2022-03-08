@@ -41,7 +41,26 @@ function About(){
                 
 
             </div>
-
+            <div className="formation">
+                <h2>Academic Curriculum</h2>
+                <div className="formation-vl">
+                    <div className="formation-section">
+                        <h4 className="formation-title">State Engineer - Mohammadia School Of Engineers</h4>
+                        <p>Information Technology <br/>
+                        2019-2022</p>
+                    </div>
+                    <div className="formation-section">
+                        <h4 className="formation-title">CPGE - Moulay Youssef & Salman El Farissi</h4>
+                        <p>A lot of maths and physics <br/>
+                            2017-2019</p>
+                    </div>
+                    <div className="formation-section">
+                        <h4 className="formation-title">Baccalaureate - High School Abderahim Bouabid</h4>
+                        <p> Math <br/>
+                            2016-2017</p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

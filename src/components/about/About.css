@@ -9,7 +9,7 @@
     /*background-position: top ;*/
     background: white;
     height: 900px;
-    margin-bottom: 400px;
+    margin-bottom: 900px;
 }
 
 .about-card{
@@ -76,3 +76,20 @@
     }
 }
 
+.formation{
+    margin-top: 150px;
+    margin-bottom: 400px;
+}
+
+.formation-vl{
+    border-left: 2px solid black;
+}
+
+.formation-title{
+    text-align: left;
+    margin:20px;
+}
+
+.formation-section{
+    margin-bottom: 90px;
+}
